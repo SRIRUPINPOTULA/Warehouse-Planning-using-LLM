@@ -276,7 +276,7 @@ model.generate_content(step1_prompt)
 # =========================================================
 
 # Read your instance file so the model matches EXACT schemas
-inst_path = Path("/Users/srirupin/Desktop/CSE579_KRR/newVersions2/inst1.asp")  # change if needed
+inst_path = Path("inst1.asp")  # change if needed
 inst_text = inst_path.read_text(encoding="utf-8")
 
 # Keep prompt size reasonable: include schemas + a small excerpt
