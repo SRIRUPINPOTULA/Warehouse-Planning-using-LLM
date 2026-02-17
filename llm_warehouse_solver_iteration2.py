@@ -277,7 +277,7 @@ model.generate_content(step1_prompt)
 # STEP 2: DOMAIN-LEVEL WAREHOUSE ENCODING (ACCURATE FOR YOUR inst.asp)
 # =========================================================
 
-inst_path = Path("/Users/srirupin/Desktop/CSE579_KRR/newVersions2/inst1.asp")
+inst_path = Path("inst1.asp")
 inst_text = inst_path.read_text(encoding="utf-8")
 
 inst_lines = inst_text.strip().splitlines()
